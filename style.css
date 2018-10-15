@@ -1,0 +1,61 @@
+body{
+  display: grid;
+  grid-gap: 30px;
+}
+
+HEADER{
+  background-color: aqua;
+  text-align: center;
+  border: 2px solid black;
+}
+.proPhoto {
+  border-radius: 75%;
+  width: 90%;
+  height: 210px;
+  margin-left: 10px;
+}
+.sidebar{
+  background-color: grey;
+ float: left;
+ width: 45%;
+ margin-left: 12%;
+}
+.content{
+  float: right;
+  float: inherit;
+}
+.biography{
+width: 60%;
+}
+
+.workExpContainer{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+.educationContainer{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+
+.content{
+  background-color:#FFF;
+  grid-gap: 30px;
+  margin-left: 20px;
+}
+
+.mainContent{
+  display: flex;
+}
+
+FOOTER{
+  float: none;
+}
+div{
+  -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+}
